@@ -1,0 +1,43 @@
+
+/*==================INI-LOGIN==================*/
+#principal {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	background-color: #166db7;
+}
+	 
+#principal_login {
+	width: 600px;
+	min-height: 150px;
+	text-align: justify;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 1em #000000;
+	-moz-box-shadow: 0px 0px 1em #00000;
+	padding: 10px;
+}
+
+#tabela_login{
+	text-align: center;
+	color: #166db7;
+}
+/*==================FIM-LOGIN==================*/
+
+body{
+	margin:0;
+}
+
+#msg_sucesso{
+	color: #166db7;	
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#msg_erro{
+	color: #8B0000;
+	font-weight: bold;
+	font-size: 20px;
+}
